@@ -1,0 +1,12 @@
+{
+  "name": "calculator-e2e-test",
+  "description": "This is a test project for calculator application",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Erdem Alpay",
+  "license": "MIT",
+  "devDependencies": {
+    "@testing-library/cypress": "^7.0.6",
+    "cypress": "^7.6.0"
+  }
+}
