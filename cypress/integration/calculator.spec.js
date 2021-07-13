@@ -125,4 +125,11 @@ describe('Calculator test', () => {
     clickSymbol('=');
     checkResult(0.99);
   });
+  it('should be able to delete and add number', () => {
+    typeNumber(32.129);
+    clickSymbol('DEL');
+    checkResult("32.12");
+    typeNumber(3);
+    checkResult("32.123");
+  });
 });
