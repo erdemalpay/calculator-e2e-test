@@ -9,6 +9,8 @@ To run tests, first you need to set your calculator app's url in `cypress.json` 
 Also ensure that your display element in your application has the attribute `data-display`.
 This is required to check your results.
 
+Please use x character for multiply button icon.
+
 Then run the following command:
 
 ```bash

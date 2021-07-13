@@ -84,7 +84,7 @@ describe('Calculator test', () => {
   
   it('should be able to multiply two numbers when pressed "=" button', () => {
     typeNumber(34.42);
-    clickSymbol('×');
+    clickSymbol('x');
     typeNumber(28.129);
     clickSymbol('=');
     checkResult(968.20018);
@@ -101,7 +101,7 @@ describe('Calculator test', () => {
     clickSymbol('DEL');
     checkResult(34.4);
     clickSymbol('DEL');
-    checkResult(34.);
+    checkResult("34.");
     clickSymbol('DEL');
     checkResult(34);
     clickSymbol('DEL');
